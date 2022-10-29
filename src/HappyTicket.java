@@ -49,14 +49,14 @@ public class HappyTicket {
     }
 
     public static void main(String[] args) {
-        System.out.println("Введите номер билета.");
+        System.out.println("Введите номер билета");
         System.out.print("a = ");
         int a = enterNumber();
         if (isHappyMoscow(a))
-            System.out.println("Московский счастливый билет.");
+            System.out.println("Московский счастливый билет");
         if (isHappyStPetersburg(a))
-            System.out.println("Питерский счастливый билет.");
+            System.out.println("Питерский счастливый билет");
         if (! isHappyMoscow(a) && !isHappyStPetersburg(a))
-            System.out.println("Обычный билет.");
+            System.out.println("Обычный билет");
     }
 }
