@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class HappyTicket {
+    // метод ввода данных
     public static int enterNumber() {
         Scanner sc = new Scanner(System.in);
         int number;
@@ -17,7 +18,7 @@ public class HappyTicket {
                 System.out.println("Введите шестизначное число.");
         }
     }
-
+    // метод Москвоского счастливого билета
     public static boolean isHappyMoscow(int x) {
         int s1 =0, s2 = 0;
         for(int i = 0; i < 3; i++) {
@@ -33,7 +34,7 @@ public class HappyTicket {
         else
             return false;
     }
-
+    // метод Санкт-Петербургского счастливого билета
     public static boolean isHappyStPetersburg(int x) {
         int s1 =0, s2 = 0;
         for(int i = 0; i < 3; i++) {
