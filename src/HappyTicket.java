@@ -1,4 +1,4 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
 public class HappyTicket {
     // метод ввода данных
@@ -48,7 +48,7 @@ public class HappyTicket {
         else
             return false;
     }
-    // выполнение потока
+
     public static void main(String[] args) {
         System.out.println("Введите номер билета");
         System.out.print("a = ");
